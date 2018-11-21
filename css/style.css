@@ -1,0 +1,137 @@
+.subcribe{
+    background: #ff7b38;
+    height: 300px;
+}
+.form-sub{
+    margin-top: -100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 1200px;
+}
+.form-sub form input[name="submit"]{
+    background: #f66c27;
+    border-radius: 32px;/*thuộc tính vo tròn*/
+    width: 100px;
+}
+.form-sub form input[name="form-subr"]{
+    width: 300px;
+    margin-right: 15px;
+}
+/*our-clients-say css*/
+.our-clients{
+    background: #f8f8f8;
+    padding: 60px;
+    text-align: center;
+}
+.our-clients .container span{
+    color: red;
+}
+.our-clients .our-clients-icon {
+    font-size: 5px;
+    color: #f66c27;
+}
+.our-clients .our-clients-icon .icon1{
+    color: #dbdada;
+}
+.our-clients .our-clients-icon .icon3{
+    color: #dbdada;
+}
+/*css footer*/
+footer{
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form{
+    background:  #f48146;
+    box-sizing: border-box;
+    height: 708px;
+
+}
+.contact-form .content-form{
+    background: #ffffff;
+    padding: 60px;
+    margin-top: 170px;
+    margin-right: 100px;
+}
+.content-form input , textarea{
+    border: none;
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+    color: #777777;
+
+}
+.first-row input{
+    width: 40%;
+}
+.first-row:after{
+    content: " ";
+    clear: both;
+}
+.first-row input[name="Email"]{
+    float: right;
+}
+.content-form input:focus , textarea:focus {
+    outline: none;
+}
+.contact-form-row {
+    margin-bottom: 20px;
+}
+.content-form input[name="submit"]{
+    background:  #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;/*thuộc tính vo tròn*/
+}
+.submit-row {
+    text-align: center;
+}
+.project-item span{
+    color: red;
+}
+footer .contact-info{
+    box-sizing: border-box;
+    height: 700px;
+    padding-left: 100px;
+}
+footer .contact-info h3{
+    margin-top: 108px;
+    font-size: 45px;
+
+}
+.line-contact-info {
+    padding: 20px 0px;
+}
+.line-contact-info h4{
+    color: #333333;
+    font-size: 25px;
+}
+.line-contact-info p{
+    font-size: 15px;
+    max-width: 300px;
+}
+footer .social-icon i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: #bbbbbb;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #f48146;
+}
+.line-contact-info span{
+    color: red;
+}
+footer .social-icon .google {
+    background: #2faaf1;
+}
+footer .social-icon .youtobe{
+    background: #2faaf1;
+}
+footer .social-icon .twitter{
+    background: #f66c27;
+}
